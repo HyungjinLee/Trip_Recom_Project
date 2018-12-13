@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/midnightblue"
+    tools:context=".activity.FrontActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="271dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/rounded_square_button"
+        android:fontFamily="@font/my_font_family"
+        android:text="@string/btn_register"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="normal"
+        android:onClick="onBtnLoginClick"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="742dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="271dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/rounded_square_button_mint"
+        android:fontFamily="@font/my_font_family"
+        android:text="@string/btn_login"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="normal"
+        android:onClick="onBtnLoginClick"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="659dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+
+    <ImageView
+        android:id="@+id/earth"
+        android:layout_width="180dp"
+        android:layout_height="183dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="85dp"
+        android:contentDescription="@string/desc"
+        app:srcCompat="@drawable/earth_web"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="81dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/travelcase"
+        android:layout_width="121dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="540dp"
+        android:contentDescription="@string/desc"
+        app:srcCompat="@drawable/travelcase2"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="541dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

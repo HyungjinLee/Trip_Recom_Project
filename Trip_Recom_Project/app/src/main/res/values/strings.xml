@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">DBProject</string>
+    <string name="hint_id">ID</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Nickname</string>
+    <string name="btn_login">로그인</string>
+    <string name="btn_register">회원가입</string>
+    <string name="btn_link_to_register">그룹의 멤버가 아니세요? 지금 바로 가입하세요.</string>
+    <string name="btn_link_to_login">로그인 화면으로</string>
+    <string name="btn_link_to_main">메인 화면으로</string>
+    <string name="weather">Weather</string>
+    <string name="welcome">환영합니다</string>
+    <string name="btn_logout">로그아웃</string>
+    <string name="name">Fullname</string>
+    <string name="btn_recom">추천</string>
+    <string name="rate">평점</string>
+    <string name="desc">desc</string>
+    <!-- res06_citylist_search.xml -->
+    <string name="country">Country</string>
+    <string name="internet">Internet</string>
+    <string name="air">Air</string>
+    <string name="safety">Safety</string>
+    <string name="english">English</string>
+    <string name="more">More</string>
+    <!-- res07_maincity1,2,3.xml -->
+    <string name="city_name">CITYNAME</string>
+    <string name="internet_capital">INTERNET</string>
+    <string name="currency_capital">CURRENCY</string>
+    <string name="air_pollution_capital">AIR POLLUTION</string>
+    <string name="high_capital">HIGH</string>
+    <string name="mid_capital">MID</string>
+    <string name="low_capital">LOW</string>
+    <string name="safety_capital">SAFETY</string>
+    <string name="english_capital">ENGLISH</string>
+    <string name="weather_capital">WEATHER</string>
+    <string name="celcius_capital">CELCIUS</string>
+    <!-- res08_1,2,3_english,internet,safety.xml -->
+
+    <!-- res09_rating.xml -->
+    <string name="rating">Rating</string>
+
+    <!-- res10_recommendation.xml -->
+    <string name="recommendation">Recommendation</string>
+    <string name="please_choose_attributes">Please Choose Attributes: </string>
+    <string name="internet_speed">Internet Speed</string>
+    <string name="currency">Currency</string>
+    <string name="air_quality">Air Quality</string>
+    <string name="done">Done</string>
+    <string name="cities_ranking">Cities Ranking</string>
+</resources>
