@@ -1,8 +1,7 @@
 # Trip_Recom_Project v1.0
 This is a simple system for recommending cities that go well with a specific user.
 
-## WHAT IS THIS?
-## 마크다운 문법 소개
+## h1 WHAT IS THIS?
  여행지를 추천해 주는 어플리케이션을 안드로이드 스튜디오로 구현하였다.
  
 ## ON WHAT ENVIRONMENT DOES IT RUN?
